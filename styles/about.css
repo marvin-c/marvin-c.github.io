@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #ccf2ff;
+  display: block;
+  margin-top: 40px;
+  display: block;
+  opacity: 0.5;
+}
+
+.ulo_pic {
+  margin: 30px 0 0 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+.ulo_wala {
+display: inline-block;
+  width: 30vw;
+  text-align: left;
+  border: solid 1px;
+}
+.ulo_tuo {
+  border: solid 1px;
+  display: inline-block;
+  width: max-width;
+  margin-left: 200px;
+}
+.aboutmebackground {
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.1)), url("../img/aboutme.jpg");
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+html, body {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+}
