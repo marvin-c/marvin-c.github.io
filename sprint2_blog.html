@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="pictu">
+        <a href="index.html">
+          <img src="img/me.jpg" alt="marvin's profile pic" class="ulo_pic">
+        </a>
+      </div>
+      <div class="prac">
+        <div id="practice">
+          <a href="practice.html"  class="menu" style="font-size: 30px; margin:15px;">Practice</a>
+        </div>
+      </div>
+      <div class="dev">
+        <div id="toga">
+          <a href="eda.html" class="menu">Dev Academy</a>
+        </div>
+      </div>
+      <div class="client">
+        <div id="hands">
+          <a href="client.html" class="menu">Client Projects</a>
+        </div>
+      </div>
+      <div class="nav"><p>Latest Posts</p>
+        <a href="#" class="navpost">-- Sprint 2 Blog</a>
+      </div>
+      <div class="msg">
+        <h5>First of, What is a class and id in css?</h5>
+        <p>A class and an id is used to style an element in html. Both can be defined from html or in css file.
+        In declaring a class, you can choose a name preceded by a full stop ".". ID on the other hand is defined with a name preceded by "#".</p>
+        <div style="text-align: center;">
+
+          <img src="img/class_id_html.JPG" alt="Class and ID on html" style="height:350px;"> <img src="img/class_id_css.JPG" alt="Class and ID on css">
+          <p style="font-size: 14px; font-style: italic;">Image above on the left is from html file and on the right is from CSS</p>
+        </div>
+        <h5>IDs vs Classes</h5>
+        <p>Given classes and IDs are very similar, you may be wondering which one to use. This depends on the situation.</p>
+
+        <h5>When to use classes</h5>
+        <p>You should use classes when your style needs to be applied multiple times on the same page. For example, you might have many &lth1&gt elements that need the same style applied.</p>
+
+        <h5>When to use IDs</h5>
+        <p>You should use IDs if only one element on the page should have the style applied, and/or you need a unique identifier for that element. For example, you might assign an ID to a &ltnav&gt tag which contains your left menu. The styles for this ID could contain the position, background-color, float properties, size etc. You probably wouldn't want any other element on the page to use this particular style.</p>
+
+        <p>Another useful thing about IDs is that you can use the Document Object Model (DOM) to refer to them. This enables you to use JavaScript/DHTML techniques to build a much more interactive web site.</p>
+
+        <p>However, there's a school of thought within the developer community that frowns upon ID selectors. In fact, some developers state that you should "never, ever use ID selectors".</p>
+
+        <p>This is a decision that you will need to make. It is quite possible (and common) to develop a website without using ID selectors.</p>
+
+        <h5>Best Practice for ID and Class Names</h5>
+
+        <h5>1. Keep Use of IDs and Classes to a Minimum</h5>
+        <p>Unless IDs are needed for something other than styling (like serving as internal link targets), try to avoid them as well as classes as this is “cognitively easiest” and the least of a maintenance burden. (Don’t confuse structural—which can always happen and against which you cannot really protect yourself—with visual changes.)</p>
+
+        <h5>2. Use Functional ID and Class Names</h5>
+        <p>Deriving names from functionality (for example nav, warning) is usually the second best option, as this is tied to the structure and helps conceptual understanding and collaboration. It is less of a maintenance problem as the page element in question might not change its meaning, and when it does, it requires more substantial changes.</p>
+
+        <h5>3. Use Generic ID and Class Names</h5>
+        <p>If you cannot derive a good name from an element’s function, or if you happen to introduce something solely for styling (e.g. for that still popular alternate styling of table rows), use generic, “neutral” names (for example auxcode> or alt, alternative). This is not necessarily ideal for understanding and collaboration but it is less likely to impose maintenance problems.</p>
+
+      </div>
+      <div class="footer">
+        <footer>
+          <a href="about.html" class="link">About Me</a>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>

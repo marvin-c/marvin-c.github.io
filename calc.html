@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+    .flex_keypad{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F5FA;
+    width: 480px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    }
+    .lcd_screen_outer_gray{
+      border-radius: 5px;
+      background-color: #BBB9BA;
+      width: 510px;
+      height: 250px;
+      margin: 0;
+    }
+    .lcd_screen_black{
+      border-radius: 5px;
+      color: white;
+      background-color: #141414;
+      width: 480px;
+      height: 235px;
+      margin: 15px;
+      border-radius: 10% 10% 30% 30%;
+
+
+    }
+    .lcd_screen_gray{
+      position: absolute;
+      border-radius: 5% 5% 20% 20%;
+      background-color: #C9C9CB;
+      width: 420px;
+      height: 110px;
+      margin-left: 30px;
+      top: 470px;
+    }
+
+    .element {
+         border-bottom: 1px solid black;
+         border-top: 1px solid black;
+    }
+    .lcd_screen{
+      position: absolute;
+      border-radius: 5px;
+      background-color: #8A8C7F;
+      width: 300px;
+      height: 70px;
+      top: 20px;
+      left: 60px;
+      box-shadow: inset 0 -8px 10px -6px black;
+    }
+    .button {
+      border-radius: 8px;
+      color: white;
+      background-color: #37363C;
+      width: 80px;
+      height: 55px;
+      margin: 7px 7px;
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+      text-align: center;
+      line-height: 55px;
+      cursor: pointer;
+
+      box-shadow: 0 5px #999;
+    }
+    .button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.29);
+    }
+    .button:active {
+      background-color: black;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    .power {
+      background-color: #E7A3B7;
+    }
+    .dot{
+      line-height: 35px;
+    }
+    .plus{
+      height: 125px;
+      line-height: 125px;
+    }
+    .font {
+      font-size: 24px;
+    }
+    a:hover{
+      color:red;
+    }
+    .ecalc{
+      font-color: #C9C9CB;
+      font-size: 12px;
+      line-height: 430px;
+      left: 500px;
+      padding-left: 135px;
+    }
+    #anim {
+      animation-name: colorful;
+      animation-duration: 3s;
+    }
+    @keyframes colorful {
+      0% {
+        background-color: blue;
+      }
+      100% {
+        background-color: yellow;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="pictu">
+        <a href="index.html">
+          <img src="img/me.jpg" alt="marvin's profile pic" class="ulo_pic">
+        </a>
+      </div>
+      <div class="prac">
+        <div id="practice">
+          <a href="practice.html" class="menu" style="font-size: 30px; margin:15px;">Practice</a>
+        </div>
+      </div>
+      <div class="dev">
+        <div id="toga">
+          <a href="eda.html" class="menu">Dev Academy</a>
+        </div>
+      </div>
+      <div class="client">
+        <div id="hands">
+          <a href="client.html" class="menu">Client Projects</a>
+        </div>
+      </div>
+      <div class="nav">
+        <p style="font-size: 18px;">Latest Posts</p>
+        <a href="sprint2_blog.html" class="navpost">-- Class/ID best practices (Sprint 2 Blog) </a><br>
+        <a href="calc.html" class="navpost">-- Calculator (unfinished) </a>
+      </div>
+      <div class="msg">
+
+        <div><p class="navpost">Sample calculator below uses CSS style flexbox</p></div>
+        <div class="lcd_screen_outer_gray">
+          <div class="lcd_screen_black">
+            <p class="ecalc">ELECTRONIC CALCULATOR</p>
+            <div class="lcd_screen_gray hr">
+              <div class="lcd_screen"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex_keypad">
+          <div><a class="button font">MRC</a><a class="button">7</a><a class="button">4</a><a class="button">1</a><a class="button">0</a></div>
+          <div><a class="button font">M-</a><a class="button">8</a><a class="button">5</a><a class="button">2</a><a class="button dot">.</a></div>
+          <div><a class="button font">M+</a><a class="button">9</a><a class="button">6</a><a class="button">3</a><a class="button">+/-</a></div>
+          <div><a class="button">%</a><a class="button">√</a><a class="button">-</a><a class="button plus">+</a></div>
+          <div><a class="button power font">ON/C</a><a class="button">♪</a><a class="button">÷</a><a class="button">x</a><a class="button">=</a></div>
+        </div>
+
+        <p class="navpost">This is not finished yet. Will update this as I go through learning.</p>
+      </div>
+
+      <div class="footer">
+        <footer>
+          <a href="about.html" class="link">About Me</a>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
