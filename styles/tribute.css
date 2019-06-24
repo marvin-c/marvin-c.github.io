@@ -1,0 +1,58 @@
+body {
+  background-color: #E2E2DA;
+}
+
+#title {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Pinyon Script";
+  padding-top: 20px;
+  line-height: 1px;
+}
+p.atl {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1px;
+  font-style: italic;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+div.foot {
+  text-align: right;
+  font-style: italic;
+  margin-right: 350px;
+}
+
+.trib_link {
+  padding-top: 10px;
+  text-align: center;
+}
+#tribute-info {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#image {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+
+#img-caption {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  text-align: center;
+}
+#main {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#tribute-link {
+  font-family: "Hoefler Text";
+  font-size: 20px;
+  font-weight: bold;
+}
