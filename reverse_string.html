@@ -41,12 +41,24 @@
         <a href="blog/sprint1-technical.html" class="navpost">-- sprint1-technical</a>
       </div>
       <div class="msg">
-        <h2 style="margin-left: 20px;">Kia ora Taiao!</h2>
-        <p> Welcome to my blog page.</p>
-        <p> I will be updating this page as I learn through. </p>
-        <p> Will be putting on links of my projects that I am working on. </p>
-        <p> Each project will be included with skills that I went through for guidance.</p>
-        <p> Also, this blog is work on progress.</p>
+        <h3>In this page will show you a sample of a string reversed done in javascript.</h3>
+        <input id="rverse" type="str" placeholder="Type here any text then hit enter or click Reverse" size="50">
+        <button onclick="javascript:reverse()">Reverse</button>
+        <button onclick="javascript:cls()">Clear</button>
+        <p id="result"></p>
+        <script>
+          function reverse() {
+            let reversedName = '';
+            let name = document.getElementById('rverse').value;
+            for (let i = (name.length - 1); i != -1; i--) {
+              reversedName = (reversedName + name[i]);
+              document.getElementById('result').innerHTML = reversedName;
+            }
+          }
+          function cls() {
+            document.getElementById('result').innerHTML = ' ';
+          }
+        </script>
       </div>
       <div class="footer">
         <footer>
